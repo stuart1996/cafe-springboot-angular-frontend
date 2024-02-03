@@ -60,7 +60,7 @@ export class SignupComponent implements OnInit {
         this.dialogRef.close();
 
         this.reponseMessage = reponse?.message;
-        this.snackBarService.openSnackBar(this.reponseMessage, " ");
+        this.snackBarService.openSnackBar(this.reponseMessage, "");
         this.router.navigate(['/']);
       }, error: (error) => {
         this.ngxService.stop();
