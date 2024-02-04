@@ -32,13 +32,19 @@ body {
 }
 
 .black-snackbar {
-    background: black !important;
-    color: white !important;
+    // background: black !important;
+    // color: white !important;
+    --mdc-snackbar-supporting-text-color : white !important ; 
+    --mdc-snackbar-container-color : black !important;
+    text-align: center;  
 }
 
 .green-snackbar {
-    background: #00ff7f !important;
-    color: black !important;
+    // background: #00ff7f !important;
+    // color: black !important;
+    --mdc-snackbar-supporting-text-color : black !important; 
+    --mdc-snackbar-container-color : #00ff7f !important;
+    text-align: center;
 }
 
 .mat-snack-bar-container {

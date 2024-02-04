@@ -17,6 +17,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { SignupComponent } from './signup/signup.component';
 import { NgxUiLoaderConfig, NgxUiLoaderModule, SPINNER } from 'ngx-ui-loader';
 import { PasswordOublieComponent } from './password-oublie/password-oublie.component';
+import { LoginComponent } from './login/login.component';
 
 const ngxUiloaderConfig: NgxUiLoaderConfig={
   text:"Chargement...",
@@ -38,7 +39,8 @@ const ngxUiloaderConfig: NgxUiLoaderConfig={
     AppHeaderComponent,
     AppSidebarComponent,
     SignupComponent,
-    PasswordOublieComponent
+    PasswordOublieComponent,
+    LoginComponent
    ],
   imports: [
     BrowserModule,
